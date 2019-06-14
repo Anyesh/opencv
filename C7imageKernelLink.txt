@@ -1,0 +1,6 @@
+http://setosa.io/ev/image-kernels/
+go to this website to see how blurring images help in edge detection
+
+
+http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/MANDUCHI1/Bilateral_Filtering.html
+go to this website to see how bilateral blurring works
