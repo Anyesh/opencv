@@ -60,7 +60,7 @@ def stack_residual_block(inputs, filters, n):
     """
     x = residual_block(inputs, filters)
 
-    for i in range(n - 1):
+    for _ in range(n - 1):
         x = residual_block(x, filters)
 
     return x
@@ -99,9 +99,7 @@ def darknet():
     x = GlobalAveragePooling2D()(x)
     x = Dense(1000, activation='softmax')(x)
 
-    model = Model(inputs, x)
-
-    return model
+    return Model(inputs, x)
 
 
 if __name__ == '__main__':
